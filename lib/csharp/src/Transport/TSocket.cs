@@ -21,6 +21,7 @@
  * details.
  */
 
+#if !UNITY_FREE_BUILD
 using System;
 using System.Net.Sockets;
 
@@ -233,3 +234,4 @@ namespace Thrift.Transport
     #endregion
   }
 }
+#endif

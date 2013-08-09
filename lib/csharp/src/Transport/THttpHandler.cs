@@ -7,6 +7,7 @@
 //  Distributed under the Apache Public License
 //
 
+#if !UNITY_FREE_BUILD
 using System;
 using System.Web;
 using System.Net;
@@ -95,3 +96,4 @@ namespace Thrift.Transport
         }
     }
 }
+#endif

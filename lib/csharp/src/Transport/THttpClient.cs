@@ -18,7 +18,7 @@
  * 
  * 
  */
-
+#if !UNITY_FREE_BUILD
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -399,3 +399,4 @@ namespace Thrift.Transport
 #endregion
 	}
 }
+#endif
